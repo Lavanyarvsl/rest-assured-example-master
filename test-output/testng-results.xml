@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3936" started-at="2019-09-30T12:03:08Z" finished-at="2019-09-30T12:03:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3936" started-at="2019-09-30T12:03:08Z" finished-at="2019-09-30T12:03:12Z">
+      <class name="io.sample.tests.GetUserDetails">
+        <test-method status="PASS" signature="resourceIntialize()[pri:0, instance:io.sample.tests.GetUserDetails@2758fe70]" test-instance-name="getSingleusr_smoke" name="resourceIntialize" is-config="true" duration-ms="87" started-at="2019-09-30T12:03:08Z" finished-at="2019-09-30T12:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourceIntialize -->
+        <test-method status="PASS" signature="GetUserDetails(java.lang.String)[pri:0, instance:io.sample.tests.GetUserDetails@2758fe70]" test-instance-name="getSingleusr_smoke" name="getSingleusr_regression" duration-ms="3478" started-at="2019-09-30T12:03:08Z" data-provider="fetchData" finished-at="2019-09-30T12:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[getSingleusr_regression]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleusr_regression -->
+        <test-method status="PASS" signature="setResultTestName(org.testng.ITestResult)[pri:0, instance:io.sample.tests.GetUserDetails@2758fe70]" test-instance-name="getSingleusr_smoke" name="setResultTestName" is-config="true" duration-ms="3" started-at="2019-09-30T12:03:11Z" finished-at="2019-09-30T12:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=GetUserDetails.GetUserDetails(java.lang.String)[pri:0, instance:io.sample.tests.GetUserDetails@2758fe70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultTestName -->
+        <test-method status="PASS" signature="GetUserDetails(java.lang.String)[pri:0, instance:io.sample.tests.GetUserDetails@2758fe70]" test-instance-name="getSingleusr_smoke" name="getSingleusr_smoke" duration-ms="339" started-at="2019-09-30T12:03:11Z" data-provider="fetchData" finished-at="2019-09-30T12:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[getSingleusr_smoke]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleusr_smoke -->
+        <test-method status="PASS" signature="setResultTestName(org.testng.ITestResult)[pri:0, instance:io.sample.tests.GetUserDetails@2758fe70]" test-instance-name="getSingleusr_smoke" name="setResultTestName" is-config="true" duration-ms="0" started-at="2019-09-30T12:03:12Z" finished-at="2019-09-30T12:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getSingleusr_regression status=SUCCESS method=GetUserDetails.GetUserDetails(java.lang.String)[pri:0, instance:io.sample.tests.GetUserDetails@2758fe70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setResultTestName -->
+      </class> <!-- io.sample.tests.GetUserDetails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

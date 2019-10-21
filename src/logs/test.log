@@ -1,0 +1,621 @@
+INFO    2019-08-23 15:27:26,647 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+createUser_smoke
+INFO    2019-08-23 15:27:26,650 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"createdAt":"2019-08-22T20:31:56.307Z","name":"lavanya","id":"644","job":"Automation Test Engineer"}
+INFO    2019-08-23 15:27:29,549 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@78d39a69
+INFO    2019-08-23 15:27:29,613 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-23 15:27:29,614 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 10:27:08,673 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_regression
+INFO    2019-08-28 10:27:08,677 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{}
+INFO    2019-08-28 10:27:08,677 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/23
+INFO    2019-08-28 10:27:10,970 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@63c5efee
+INFO    2019-08-28 10:27:11,184 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 10:27:11,184 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 10:27:11,191 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_smoke
+INFO    2019-08-28 10:27:11,194 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}
+INFO    2019-08-28 10:27:11,194 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 10:27:11,535 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@2a2bb0eb
+INFO    2019-08-28 10:27:11,539 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 10:27:11,539 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 10:27:11,549 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+createUser_smoke
+INFO    2019-08-28 10:27:11,550 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"createdAt":"2019-08-22T20:31:56.307Z","name":"lavanya","id":"644","job":"Automation Test Engineer"}
+INFO    2019-08-28 10:27:11,550 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users
+INFO    2019-08-28 10:27:12,289 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@1a78dacd
+INFO    2019-08-28 10:27:12,340 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 10:27:12,340 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 10:27:12,352 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+deleteUser_smoke
+INFO    2019-08-28 10:27:12,353 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"value":"204"}
+INFO    2019-08-28 10:27:12,354 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 10:27:13,107 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@736ac09a
+INFO    2019-08-28 10:27:13,112 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 10:27:13,113 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 10:27:13,113 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 10:27:13,833 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@272a179c
+INFO    2019-08-28 10:27:13,837 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+false
+INFO    2019-08-28 10:27:13,837 [main] io.sample.tests.CreateUser  - =========================================false
+INFO    2019-08-28 12:02:32,682 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_regression
+INFO    2019-08-28 12:02:32,686 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{}
+INFO    2019-08-28 12:02:32,686 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/23
+INFO    2019-08-28 12:02:35,196 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@70dd7e15
+INFO    2019-08-28 12:02:35,359 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 12:02:35,359 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 12:02:35,374 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_smoke
+INFO    2019-08-28 12:02:35,381 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}
+INFO    2019-08-28 12:02:35,381 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:02:35,800 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@c8b96ec
+INFO    2019-08-28 12:02:35,815 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 12:02:35,815 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 12:08:54,841 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_regression
+INFO    2019-08-28 12:08:54,844 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{}
+INFO    2019-08-28 12:08:54,845 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/23
+INFO    2019-08-28 12:08:57,589 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@63c5efee
+INFO    2019-08-28 12:08:57,754 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 12:08:57,754 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 12:08:57,762 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_smoke
+INFO    2019-08-28 12:08:57,764 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}
+INFO    2019-08-28 12:08:57,764 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:08:58,223 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@2a2bb0eb
+INFO    2019-08-28 12:08:58,226 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 12:08:58,226 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 12:08:58,233 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+createUser_smoke
+INFO    2019-08-28 12:08:58,234 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"createdAt":"2019-08-22T20:31:56.307Z","name":"lavanya","id":"644","job":"Automation Test Engineer"}
+INFO    2019-08-28 12:08:58,234 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users
+INFO    2019-08-28 12:08:59,198 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@1a78dacd
+INFO    2019-08-28 12:08:59,236 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 12:08:59,236 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 12:08:59,251 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+deleteUser_smoke
+INFO    2019-08-28 12:08:59,251 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"value":"204"}
+INFO    2019-08-28 12:08:59,251 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:09:00,125 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@736ac09a
+INFO    2019-08-28 12:09:00,134 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:09:00,135 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:09:00,135 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:09:03,708 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@272a179c
+INFO    2019-08-28 12:09:03,714 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+false
+INFO    2019-08-28 12:09:03,714 [main] io.sample.tests.CreateUser  - =========================================false
+INFO    2019-08-28 12:10:42,623 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:10:42,626 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:10:42,626 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:10:45,115 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@7ea4d397
+INFO    2019-08-28 12:10:45,177 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+false
+INFO    2019-08-28 12:10:45,177 [main] io.sample.tests.CreateUser  - =========================================false
+INFO    2019-08-28 12:12:34,859 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:12:34,863 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:12:34,863 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:12:37,833 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+{"id":"2","updatedAt":"2019-08-28T06:42:37.593Z"}
+INFO    2019-08-28 12:12:37,903 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+false
+INFO    2019-08-28 12:12:37,903 [main] io.sample.tests.CreateUser  - =========================================false
+INFO    2019-08-28 12:15:34,666 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:15:34,669 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:15:34,669 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:15:38,361 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+{"id":"2","updatedAt":"2019-08-28T06:45:38.161Z"}
+INFO    2019-08-28 12:15:38,443 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+false
+INFO    2019-08-28 12:15:38,443 [main] io.sample.tests.CreateUser  - =========================================false
+INFO    2019-08-28 12:37:59,353 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:37:59,356 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:37:59,356 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:38:06,024 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+{"id":"2","updatedAt":"2019-08-28T07:08:05.909Z"}
+INFO    2019-08-28 12:38:06,090 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+false
+INFO    2019-08-28 12:38:06,090 [main] io.sample.tests.CreateUser  - =========================================false
+INFO    2019-08-28 12:39:23,130 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:40:21,025 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:40:21,028 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:40:21,028 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:40:23,351 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-28T07:10:23.228Z"}
+INFO    2019-08-28 12:40:23,414 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 12:40:23,415 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 12:50:55,122 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:51:36,626 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:51:36,630 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:51:36,630 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:51:39,005 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+{"name":"morpheus","id":"2","job":"zion resident","updatedAt":"2019-08-28T07:21:38.838Z"}
+INFO    2019-08-28 12:51:39,077 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+false
+INFO    2019-08-28 12:51:39,077 [main] io.sample.tests.CreateUser  - =========================================false
+INFO    2019-08-28 12:52:19,021 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:52:19,024 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:52:19,025 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:53:03,879 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:53:03,882 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:53:03,882 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:53:06,461 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+INFO    2019-08-28 12:53:41,100 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:53:41,104 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:53:41,104 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:53:43,425 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+INFO    2019-08-28 12:54:06,022 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:54:06,025 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:54:06,025 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:54:08,224 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+INFO    2019-08-28 12:55:16,618 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:55:47,246 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:55:47,250 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:55:47,250 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:55:49,653 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+INFO    2019-08-28 12:56:32,057 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:56:32,060 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:56:32,060 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:56:34,478 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+INFO    2019-08-28 12:57:02,980 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 12:57:02,983 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 12:57:02,983 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 12:57:05,414 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-28T07:27:05.206Z"}
+INFO    2019-08-28 12:57:05,471 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 12:57:05,471 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 14:58:08,131 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_regression
+INFO    2019-08-28 14:58:08,135 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{}
+INFO    2019-08-28 14:58:08,135 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/23
+INFO    2019-08-28 14:58:13,648 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@63c5efee
+INFO    2019-08-28 14:58:13,781 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 14:58:13,781 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 14:58:13,787 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_smoke
+INFO    2019-08-28 14:58:13,789 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}
+INFO    2019-08-28 14:58:13,789 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 14:58:14,161 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@2a2bb0eb
+INFO    2019-08-28 14:58:14,165 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 14:58:14,165 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 14:58:14,174 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+createUser_smoke
+INFO    2019-08-28 14:58:14,175 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"createdAt":"2019-08-22T20:31:56.307Z","name":"lavanya","id":"644","job":"Automation Test Engineer"}
+INFO    2019-08-28 14:58:14,175 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users
+INFO    2019-08-28 14:58:15,187 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@1a78dacd
+INFO    2019-08-28 14:58:15,250 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 14:58:15,250 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-08-28 14:58:15,256 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+deleteUser_smoke
+INFO    2019-08-28 14:58:15,257 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"value":"204"}
+INFO    2019-08-28 14:58:15,257 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 14:58:16,118 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@736ac09a
+INFO    2019-08-28 14:58:16,125 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-08-28 14:58:16,126 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-08-28 14:58:16,126 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-08-28 14:58:16,887 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-28T09:28:16.885Z"}
+INFO    2019-08-28 14:58:16,888 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-08-28 14:58:16,888 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-09-03 15:44:21,418 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_regression
+INFO    2019-09-03 15:44:21,421 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{}
+INFO    2019-09-03 15:44:21,421 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/23
+INFO    2019-09-03 15:44:23,822 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@53ab0286
+INFO    2019-09-03 15:44:24,006 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-09-03 15:44:24,006 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-09-03 15:44:24,011 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_smoke
+INFO    2019-09-03 15:44:24,013 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}
+INFO    2019-09-03 15:44:24,013 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-09-03 15:44:24,396 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@58dea0a5
+INFO    2019-09-03 15:44:24,399 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-09-03 15:44:24,400 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-09-03 15:44:24,407 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+createUser_smoke
+INFO    2019-09-03 15:44:24,408 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"createdAt":"2019-08-22T20:31:56.307Z","name":"lavanya","id":"644","job":"Automation Test Engineer"}
+INFO    2019-09-03 15:44:24,408 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users
+INFO    2019-09-03 15:44:25,297 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@1358b28e
+INFO    2019-09-03 15:44:25,359 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-09-03 15:44:25,359 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-09-03 15:44:25,363 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+deleteUser_smoke
+INFO    2019-09-03 15:44:25,364 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"value":"204"}
+INFO    2019-09-03 15:44:25,364 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-09-03 15:44:25,923 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@5491f68b
+INFO    2019-09-03 15:44:25,933 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+updateUser_smoke
+INFO    2019-09-03 15:44:25,934 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-08-23T04:49:01.052Z"}
+INFO    2019-09-03 15:44:25,934 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-09-03 15:44:26,655 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+{"name":"morpheus","job":"zion resident","updatedAt":"2019-09-03T10:14:26.503Z"}
+INFO    2019-09-03 15:44:26,656 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-09-03 15:44:26,656 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-09-30 17:33:08,436 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_regression
+INFO    2019-09-30 17:33:08,443 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{}
+INFO    2019-09-30 17:33:08,443 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/23
+INFO    2019-09-30 17:33:11,585 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@70dd7e15
+INFO    2019-09-30 17:33:11,905 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-09-30 17:33:11,905 [main] io.sample.tests.CreateUser  - =========================================true
+INFO    2019-09-30 17:33:11,914 [main] io.sample.tests.CreateUser  - 
+*******Test Case Name*******
+getSingleusr_smoke
+INFO    2019-09-30 17:33:11,917 [main] io.sample.tests.CreateUser  - 
+*******Expectedresponse*******
+{"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"}}
+INFO    2019-09-30 17:33:11,917 [main] io.sample.util.GenericRestLibrary  - 
+********HTTP URI********
+https://reqres.in/api/users/2
+INFO    2019-09-30 17:33:12,248 [main] io.sample.tests.CreateUser  - 
+*******Actualresponse*******
+io.restassured.internal.RestAssuredResponseImpl@c8b96ec
+INFO    2019-09-30 17:33:12,251 [main] io.sample.tests.CreateUser  - 
+*******Result*******
+true
+INFO    2019-09-30 17:33:12,251 [main] io.sample.tests.CreateUser  - =========================================true

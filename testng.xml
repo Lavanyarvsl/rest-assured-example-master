@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="sampleTest">
+ <test name="testngTest">
+ <classes>
+  
+ <class name="io.sample.tests.GetUserDetails" />
+ <class name="io.sample.tests.CreateUser" />
+ <class name="io.sample.tests.DeleteUserDetails" />
+ <class name="io.sample.tests.UpdateUserDetails" />
+ </classes>
+ </test> 
+</suite>
